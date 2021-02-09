@@ -1,0 +1,6 @@
+(defun islidef(ikey inam) 
+  (start_image ikey )
+  (fill_image 0  0  (dimx_tile ikey)(dimy_tile ikey) 250)
+  (slide_image 0 0 (dimx_tile ikey)(dimy_tile ikey)  inam)
+  (end_image)
+  )
