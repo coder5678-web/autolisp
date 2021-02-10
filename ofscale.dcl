@@ -28,3 +28,33 @@ icon :dialog
 	}
 	ok_cancel;
 }
+gear :dialog 
+{label = "image¿Ø¼þÊµÑé";width=60;height=50;
+	:boxed_row { 
+		label="gear";
+			//	width =30;
+		:popup_list {label="m:";key="m";}
+		:edit_box{//key="i";
+			label="Z:";key="z";edit_limit=3;
+			//	aspect_ratio=1;
+			//	color=20;
+		}
+	}
+		: row {
+			: boxed_column {
+				label = "Some Text";
+				:edit_box{label="ca";key="e3";}
+			}
+			//spacer_0;
+			: boxed_column {
+				alignment="top";
+				label = " ";         // single blank: the default
+				:edit_box{label="aa";key="e1";}
+			}
+			: boxed_column {
+				label = "";         // null string
+				:edit_box{label="ba";key="e2";}
+			}
+		}
+		ok_cancel;
+	}
