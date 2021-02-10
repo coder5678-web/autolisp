@@ -47,6 +47,7 @@ gear :dialog
 			}
 			//spacer_0;
 			: boxed_column {
+				alignment="top";
 				label = " ";         // single blank: the default
 				:edit_box{label="aa";key="e1";}
 			}
