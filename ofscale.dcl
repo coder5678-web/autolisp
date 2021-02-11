@@ -1,5 +1,5 @@
 ofscale :dialog 
-{label = "±ÈÀıÉè¶¨";
+{label = "æ¯”ä¾‹è®¾å®š";
 	:row {:button { 
 		label ="msltscale";
 		key="1";
@@ -9,27 +9,35 @@ ofscale :dialog
 		key="2";
 	}
 	:button { 
-		label ="»æÍ¼±ÈÀı";
+		label ="ç»˜å›¾æ¯”ä¾‹";
 		key="3";
 	}
 	:button { 
-		label ="´òÓ¡±ÈÀı";
+		label ="æ‰“å°æ¯”ä¾‹";
 		key="4";
 	}
 }
 	:button { 
-		label ="×¢ÊÍĞÍ±ÈÀı¸Ä±ä";
+		label ="æ³¨é‡Šå‹æ¯”ä¾‹æ”¹å˜";
 		key="5";
 	}
 	:button { 
-		label ="Í¼ĞÎĞÔ±ÈÀı¸Ä±ä";
+		label ="å›¾å½¢æ€§æ¯”ä¾‹æ”¹å˜";
 		key="6";
+	}
+	:button { 
+		label ="æ³¨é‡Šæ€§æ¯”ä¾‹æ¢å¤";
+		key="7";
+	}
+	:button { 
+		label ="å›¾å½¢æ€§æ¯”ä¾‹æ¢å¤";
+		key="8";
 	}
 
 	ok_cancel;
 }
 icon :dialog 
-{label = "image¿Ø¼şÊµÑé";
+{label = "imageæ§ä»¶å®éªŒ";
 	:image { 
 		width =30;
 		key="i";
@@ -39,7 +47,7 @@ icon :dialog
 	ok_cancel;
 }
 gear :dialog 
-{label = "image¿Ø¼şÊµÑé";width=60;height=50;
+{label = "imageæ§ä»¶å®éªŒ";width=60;height=50;
 	:boxed_row { 
 		label="gear";
 			//	width =30;
