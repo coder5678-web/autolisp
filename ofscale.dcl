@@ -1,6 +1,6 @@
 ofscale :dialog 
 {label = "比例设定";
-	:button { 
+	:row {:button { 
 		label ="msltscale";
 		key="1";
 	}
@@ -16,6 +16,16 @@ ofscale :dialog
 		label ="打印比例";
 		key="4";
 	}
+}
+	:button { 
+		label ="注释型比例改变";
+		key="5";
+	}
+	:button { 
+		label ="图形性比例改变";
+		key="6";
+	}
+
 	ok_cancel;
 }
 icon :dialog 
