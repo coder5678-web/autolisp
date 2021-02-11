@@ -1,4 +1,4 @@
-;defun sc£¨
+;defun scÂ£Â¨
 ;action_tile "1"
 (defun sc_w1(/ dcl_id s1 s2 s3 s4 s5 s6)
   (setq dcl_id  (load_dialog  "ofscale.dcl"));
@@ -7,8 +7,11 @@
   (action_tile "2" "(setvar \"psltscale\" 0)")
   (action_tile "3" "(setq s1 1)") ;get sc of draw
   (action_tile "4" "(setq s2 1)");get sc of plot
-  (action_tile "5" "(setq s3 1)") ;get sc of draw
-  (action_tile "6" "(setq s4 1)");get sc of plot
+  (action_tile "5" "(setq s3 1)") ;set annotation scale
+  (action_tile "6" "(setq s4 1)");get drawing sc
+(action_tile)"7" "(setq s5 1)"); to restore annotation scale
+(action_tile) "8" "(setq s6 1)");to restore drawing scale
+	
   (if (= 1  (start_dialog )) 
     (progn (if (= 1 s1)  (setq *ds* (getreal "input draw ds:")));;set draw scale
 	   (if(= 1 s2)   (setq *ps* (getreal "input plot ps:")));set plot scale
