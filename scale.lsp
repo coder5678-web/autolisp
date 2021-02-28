@@ -9,8 +9,8 @@
   (action_tile "4" "(setq s2 1)");get sc of plot
   (action_tile "5" "(setq s3 1)") ;set annotation scale
   (action_tile "6" "(setq s4 1)");get drawing sc
-(action_tile)"7" "(setq s5 1)"); to restore annotation scale
-(action_tile) "8" "(setq s6 1)");to restore drawing scale
+(action_tile "7" "(setq s5 1)"); to restore annotation scale
+(action_tile "8" "(setq s6 1)");to restore drawing scale
 	
   (if (= 1  (start_dialog )) 
     (progn (if (= 1 s1)  (setq *ds* (getreal "input draw ds:")));;set draw scale
